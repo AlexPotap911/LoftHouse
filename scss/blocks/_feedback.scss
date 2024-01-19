@@ -1,0 +1,20 @@
+.feedback {
+  margin-bottom: 180px;
+  @include mediaTablet {
+      margin-bottom: 50px;
+  }
+}
+.feedback__title {
+  margin-bottom: 38px;
+  @include mediaTablet {
+      margin-bottom: 18px;
+  }
+}
+.feedback__form {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  @include mediaTablet {
+       grid-template-columns:  1fr;
+}
+}
